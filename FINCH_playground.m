@@ -2,6 +2,9 @@
 clear; clc; close all;
 closescreen;
 
+% this is for git test
+myanyvar = [2, 5, 6, 1];
+
 % ===== parameter initialization =====
 	paramInit = {
 		'FZP'  			'f' 			400 		'mm';
