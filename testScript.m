@@ -5,3 +5,4 @@ b = randi(100, 10);
 c = a + b;
 d = a*b;
 e = a.*b;
+f = c + d + e;
