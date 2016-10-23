@@ -25,7 +25,7 @@ classdef myGit
         end
         
         function rebase()
-            rebase pull: git pull --rebase origin master
+            git pull --rebase origin master
         end
         
         function log()
