@@ -4,6 +4,7 @@ closescreen;
 
 % this is for git test
 myanyvar = [2, 5, 6, 1];
+gitTest2 = myanyvar;
 
 % ===== parameter initialization =====
 	paramInit = {
