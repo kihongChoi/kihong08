@@ -6,3 +6,6 @@ c = a + b;
 d = a*b;
 e = a.*b;
 f = c + d + e;
+
+% v0.92
+myString = 'hello';
