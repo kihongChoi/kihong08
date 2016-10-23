@@ -9,3 +9,6 @@ f = c + d + e;
 
 % v0.92
 myString = 'hello';
+
+% v0.93
+myString2 = 'hello again';
