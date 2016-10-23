@@ -4,13 +4,17 @@ classdef myGit
     %
     %   FIRST (clone)
     %       CLONE(REPONAME): git clone https://github.com/kihongChoi/REPONAME
-    %       LOG: git log --pretty=oneline
     %
     %   SECOND (edit and push)
     %       add: git add filename.m
     %       push: git push
     %       COMMIT: git commit -m "MEMO"
     %       REBASE: git pull --rebase origin master
+    %
+    %   THIRD (check and fix)
+    %       LOG: git log --pretty=oneline
+    %       RESET: git fetch --all, git reset --hard origin/master
+    
  
     properties
     end
@@ -30,6 +34,11 @@ classdef myGit
         
         function log()
             git log --pretty=oneline
+        end
+        
+        function reset()
+            git fetch --all
+            git reset --hard origin/master
         end
     end
     
