@@ -12,3 +12,6 @@ myString = 'hello';
 
 % v0.93
 myString2 = 'hello again';
+
+% v0.94
+myString3 = 'hi';
