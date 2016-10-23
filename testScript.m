@@ -15,3 +15,4 @@ myString2 = 'hello again';
 
 % v0.94
 myString3 = 'hi';
+myString = myString + myString2;
