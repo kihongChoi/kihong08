@@ -1,6 +1,10 @@
 classdef goto
     methods (Static)
         function git()
+            cd C:\Users\finch\Documents\MATLAB\git\kihong08;
+        end
+        
+        function holo()
             cd C:\Users\finch\Documents\MATLAB\git\doa_holo;
         end
         
