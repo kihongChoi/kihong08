@@ -28,6 +28,12 @@ classdef myGit
             eval(['git commit -m "', memo, '";']);
         end
         
+        function add2push(memo)
+            eval(['git add ''*.m''']);
+            eval(['git commit -m "', memo, '";']);
+            eval(['git push');
+        end
+        
         function rebase()
             git pull --rebase origin master
         end
