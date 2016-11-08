@@ -29,9 +29,9 @@ classdef myGit
         end
         
         function add2push(memo)
-            eval(['git add ''*.m''']);
+            git add '*.m'
             eval(['git commit -m "', memo, '";']);
-            eval(['git push');
+            git push
         end
         
         function rebase()
